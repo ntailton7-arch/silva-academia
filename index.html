@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#080a0e" />
+    <meta name="description" content="Academia Silva, no Cuiá, João Pessoa. Musculação, aulas coletivas e artes marciais." />
+    <title>Silva — Academia • João Pessoa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#inicio">Pular para o conteúdo</a>
+
+    <div class="build-intro" id="build-intro" aria-label="Abertura Academia Silva">
+      <div class="build-intro__field" aria-hidden="true">
+        <span class="build-intro__cross build-intro__cross--one"></span><span class="build-intro__cross build-intro__cross--two"></span>
+        <div class="build-intro__tile build-intro__tile--a"><img src="premio-academia.jpeg" alt="" /></div>
+        <div class="build-intro__tile build-intro__tile--b"><img src="horarios-coletivas.jpeg" alt="" /></div>
+        <div class="build-intro__tile build-intro__tile--c"><img src="planos.jpeg" alt="" /></div>
+        <div class="build-intro__tile build-intro__tile--d"><img src="logo-silva.jpeg" alt="" /></div>
+        <svg class="build-intro__draw" viewBox="0 0 500 180" fill="none" preserveAspectRatio="xMidYMid meet"><path d="M70 90h360M250 22v136M167 60v60m-22-48v36m-19-26v16m207-78v60m22-48v36m19-26v16" pathLength="1" stroke="currentColor" stroke-width="2" stroke-linecap="square"/><path d="M201 90h98" pathLength="1" stroke="currentColor" stroke-width="7"/></svg>
+      </div>
+      <div class="build-intro__center">
+        <div class="build-intro__logo"><img src="logo-silva.jpeg" alt="" /></div>
+        <p class="build-intro__name">SILVA</p>
+        <p class="build-intro__caption">ACADEMIA <i>•</i> JOÃO PESSOA</p>
+        <div class="build-intro__rule"><span></span></div>
+        <p class="build-intro__status">SUA PRÓXIMA VERSÃO COMEÇA AQUI</p>
+      </div>
+      <button class="build-intro__skip" id="skip-intro" type="button">Pular abertura <span aria-hidden="true">↗</span></button>
+    </div>
+
+    <div class="scroll-line" aria-hidden="true"><span id="scroll-progress"></span></div>
+
+    <header class="header" id="topo">
+      <div class="header__line" aria-hidden="true"></div>
+      <div class="header__inner wrap">
+        <a class="wordmark" href="#inicio" aria-label="Silva Academia — início"><span class="wordmark__glyph" aria-hidden="true">S</span><span class="wordmark__text">SILVA<small>ACADEMIA · JP</small></span></a>
+        <button class="menu-button" aria-controls="navigation" aria-expanded="false" type="button"><span class="sr-only">Abrir menu</span><i></i><i></i></button>
+        <nav class="navigation" id="navigation" aria-label="Navegação principal">
+          <a class="navigation__link is-current" href="#inicio">Início</a>
+          <a class="navigation__link" href="#academia">Academia</a>
+          <a class="navigation__link" href="#treinos">Treinos</a>
+          <a class="navigation__link" href="#estrutura">Estrutura</a>
+          <a class="navigation__link" href="#resultados">Resultados</a>
+          <a class="navigation__link" href="#contato">Contato</a>
+          <a class="navigation__cta" href="https://wa.me/5583988683412?text=Ol%C3%A1%2C%20quero%20conhecer%20a%20Academia%20Silva." target="_blank" rel="noreferrer">Começar agora <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero__media" aria-label="Treino na Academia Silva">
+          <video class="hero__video" id="hero-video" autoplay muted loop playsinline preload="auto" poster="logo-silva.jpeg" aria-label="Vídeo de treino na Academia Silva">
+            <source src="silva-treino.mp4" type="video/mp4" />
+          </video>
+          <div class="hero__tint"></div>
+          <svg class="hero__frame" viewBox="0 0 1440 850" preserveAspectRatio="none" aria-hidden="true"><rect x="54" y="54" width="1332" height="742" rx="1" pathLength="1"/></svg>
+          <span class="hero__axis hero__axis--vertical" aria-hidden="true"></span><span class="hero__axis hero__axis--horizontal" aria-hidden="true"></span>
+          <span class="hero__corner hero__corner--top" aria-hidden="true">01 / 05 &nbsp;·&nbsp; JP, PB</span>
+          <span class="hero__corner hero__corner--bottom" aria-hidden="true">SILVA / TRAINING SYSTEM</span>
+          <button class="video-toggle" id="video-toggle" type="button" aria-label="Pausar vídeo de fundo"><span class="video-toggle__icon" aria-hidden="true">Ⅱ</span><span class="video-toggle__text">PAUSAR VÍDEO</span></button>
+        </div>
+        <div class="hero__content wrap">
+          <p class="eyebrow"><span class="eyebrow__dash"></span> Academia Silva <span class="eyebrow__sep">/</span> João Pessoa, Paraíba</p>
+          <h1 id="hero-title"><span>CONSTRUA.</span><span class="hero__word-blue">EVOLUA.</span><span>SUPERE.</span></h1>
+          <div class="hero__bottom">
+            <p>Treinamento, estrutura e acompanhamento<br />para você alcançar um novo nível.</p>
+            <div class="hero__actions"><a class="button button--blue" href="https://wa.me/5583988683412?text=Ol%C3%A1%2C%20quero%20come%C3%A7ar%20a%20treinar%20na%20Academia%20Silva." target="_blank" rel="noreferrer">Começar agora <span aria-hidden="true">↗</span></a><a class="button button--line" href="#academia">Conhecer a academia <span aria-hidden="true">↓</span></a></div>
+          </div>
+        </div>
+        <a class="hero__scroll" href="#academia"><span></span>Role para descobrir</a>
+      </section>
+
+      <section class="academy section" id="academia" aria-labelledby="academy-title">
+        <div class="section-number wrap" data-reveal><span>01</span><span>A ACADEMIA</span><span class="section-number__line"></span><span>JOÃO PESSOA · PB</span></div>
+        <div class="wrap academy__grid">
+          <div class="academy__copy" data-reveal>
+            <p class="eyebrow"><span class="eyebrow__dash"></span> Mais que uma academia</p>
+            <h2 id="academy-title">UM ESPAÇO<br />FEITO PARA<br /><em>IR MAIS LONGE.</em></h2>
+            <p>Musculação, aulas coletivas e artes marciais em um ambiente para treinar com consistência, encontrar sua modalidade e construir evolução todos os dias.</p>
+            <a class="arrow-link" href="#treinos">Conheça os treinos <span aria-hidden="true">↗</span></a>
+            <div class="academy__coordinates"><span class="coordinate-cross" aria-hidden="true">＋</span><span>07°11' S &nbsp; 34°53' W<br /><small>CUIÁ · JOÃO PESSOA</small></span></div>
+          </div>
+          <div class="award-photo" data-reveal>
+            <div class="award-photo__border" aria-hidden="true"></div>
+            <img src="premio-academia.jpeg" alt="Representantes da Academia Silva recebem o prêmio Melhores do Ano" loading="lazy" />
+            <div class="award-photo__caption"><span>UMA CONQUISTA COMPARTILHADA</span><span>PRÊMIO · MELHORES DO ANO</span></div>
+            <span class="award-photo__index">01 — 04</span>
+          </div>
+        </div>
+        <div class="academy__baseline" data-reveal aria-hidden="true"><span></span></div>
+      </section>
+
+      <section class="principles section section--blueprint" id="resultados" aria-labelledby="principles-title">
+        <div class="wrap">
+          <div class="principles__heading" data-reveal><p class="eyebrow"><span class="eyebrow__dash"></span> O que faz a diferença</p><h2 id="principles-title">UM SISTEMA.<br /><em>MUITAS FORMAS</em><br />DE EVOLUIR.</h2><p>Cada parte do treino se conecta: espaço, orientação, prática e constância.</p></div>
+          <div class="principles__grid" data-draw-group>
+            <article class="principle" data-reveal><span class="principle__node"></span><span class="principle__num">01</span><svg viewBox="0 0 52 52" aria-hidden="true"><path d="M8 42h36M13 36V23h6v13m7 0V10h6v26m7 0V18h6v18"/></svg><h3>ESTRUTURA</h3><p>Um espaço para diferentes formas de movimento e treino.</p></article>
+            <article class="principle" data-reveal style="--delay:90ms"><span class="principle__node"></span><span class="principle__num">02</span><svg viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="17"/><path d="m18 27 5 5 11-13M26 3v6m0 34v6M3 26h6m34 0h6"/></svg><h3>TREINAMENTO</h3><p>Musculação, modalidades coletivas e artes marciais.</p></article>
+            <article class="principle" data-reveal style="--delay:180ms"><span class="principle__node"></span><span class="principle__num">03</span><svg viewBox="0 0 52 52" aria-hidden="true"><circle cx="19" cy="18" r="7"/><circle cx="34" cy="20" r="6"/><path d="M5 43c1-8 6-13 14-13 7 0 12 5 13 13m-1-11c8-2 14 3 15 11"/></svg><h3>ACOMPANHAMENTO</h3><p>Orientação para manter o treino com foco e segurança.</p></article>
+            <article class="principle" data-reveal style="--delay:270ms"><span class="principle__node"></span><span class="principle__num">04</span><svg viewBox="0 0 52 52" aria-hidden="true"><path d="M8 39 19 28l7 7 18-22M31 13h13v13M8 45h36"/></svg><h3>RESULTADO</h3><p>Evolução construída com prática e constância.</p></article>
+            <span class="principles__connector" aria-hidden="true"></span>
+          </div>
+          <div class="draw-circles" aria-label="Força, foco, disciplina e evolução">
+            <div class="draw-circle" data-reveal><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="44" pathLength="1"/></svg><span>FORÇA</span><small>01 / BASE</small></div>
+            <div class="draw-circle" data-reveal style="--delay:100ms"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="44" pathLength="1"/></svg><span>FOCO</span><small>02 / PRESENÇA</small></div>
+            <div class="draw-circle" data-reveal style="--delay:200ms"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="44" pathLength="1"/></svg><span>RITMO</span><small>03 / CONSTÂNCIA</small></div>
+            <div class="draw-circle" data-reveal style="--delay:300ms"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="44" pathLength="1"/></svg><span>EVOLUÇÃO</span><small>04 / CAMINHO</small></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="training section" id="treinos" aria-labelledby="training-title">
+        <div class="wrap">
+          <div class="section-number" data-reveal><span>02</span><span>TREINOS</span><span class="section-number__line"></span><span>ESCOLHA SEU RITMO</span></div>
+          <div class="training__heading" data-reveal><h2 id="training-title">TREINE<br /><em>DO SEU JEITO.</em></h2><p>Um lugar, diferentes caminhos. Encontre o treino que combina com a sua rotina.</p></div>
+          <div class="training__grid">
+            <article class="training-card" data-reveal><div class="training-card__top"><span>01</span><svg viewBox="0 0 56 56" aria-hidden="true"><path d="M7 20h42M7 36h42M15 14v28m26-28v28M7 16v8m42-8v8M7 32v8m42-8v8"/></svg></div><h3>MUSCULAÇÃO</h3><p>Treinamento orientado para desenvolver força e condicionamento.</p><a href="#planos" aria-label="Ver planos de musculação">Ver planos <span aria-hidden="true">↗</span></a><span class="training-card__frame" aria-hidden="true"></span></article>
+            <article class="training-card" data-reveal style="--delay:100ms"><div class="training-card__top"><span>02</span><svg viewBox="0 0 56 56" aria-hidden="true"><circle cx="20" cy="19" r="6"/><circle cx="37" cy="20" r="5"/><path d="M8 44c1-8 5-13 12-13s11 5 12 13m-1-12c8-1 14 3 15 12M10 10l5 4m30-4-5 4"/></svg></div><h3>AULAS COLETIVAS</h3><p>Pilates, funcional, yoga, ritmos, aeróbica e dança de salão.</p><a href="#horarios" aria-label="Ver horários das aulas coletivas">Ver horários <span aria-hidden="true">↗</span></a><span class="training-card__frame" aria-hidden="true"></span></article>
+            <article class="training-card" data-reveal style="--delay:200ms"><div class="training-card__top"><span>03</span><svg viewBox="0 0 56 56" aria-hidden="true"><path d="M16 9 29 22 22 29 9 16m18 14 7-7 13 13-7 7zM7 49l13-13m17-22 4-4 9 9-4 4M12 42l4 4"/></svg></div><h3>ARTES MARCIAIS</h3><p>Muay Thai, Jiu-Jitsu, Jiu Kids e outras modalidades.</p><a href="#horarios" aria-label="Ver horários das artes marciais">Ver horários <span aria-hidden="true">↗</span></a><span class="training-card__frame" aria-hidden="true"></span></article>
+            <article class="training-card training-card--wide" data-reveal style="--delay:280ms"><div class="training-card__top"><span>04</span><svg viewBox="0 0 56 56" aria-hidden="true"><path d="M6 28h44M13 28V18h6v20h-6zm18 0V11h6v34h-6zm18 0v-7h6v14h-6z"/></svg></div><div><h3>CONDICIONAMENTO</h3><p>Treinos funcionais e aulas coletivas para ampliar seu repertório de movimento.</p></div><a href="#planos" aria-label="Descobrir planos de condicionamento">Descobrir opções <span aria-hidden="true">↗</span></a><span class="training-card__frame" aria-hidden="true"></span></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="schedule section section--night" id="horarios" aria-labelledby="schedule-title">
+        <div class="wrap">
+          <div class="section-number" data-reveal><span>03</span><span>NO SEU HORÁRIO</span><span class="section-number__line"></span><span>SEGUNDA — SEXTA</span></div>
+          <div class="schedule__heading" data-reveal><div><p class="eyebrow"><span class="eyebrow__dash"></span> Ritmo da semana</p><h2 id="schedule-title">UM TEMPO<br /><em>PARA VOCÊ.</em></h2></div><p>Encontre sua aula. Toque em uma modalidade para consultar e planejar sua semana de treino.</p></div>
+          <div class="schedule__viewport" data-reveal tabindex="0" aria-label="Tabela de horários; deslize horizontalmente no celular">
+            <table class="schedule-table">
+              <thead><tr><th scope="col">HORA</th><th scope="col">SEGUNDA</th><th scope="col">TERÇA</th><th scope="col">QUARTA</th><th scope="col">QUINTA</th><th scope="col">SEXTA</th></tr></thead>
+              <tbody>
+                <tr><th scope="row">06H</th><td><span>PILATES SOLO</span></td><td><span>FUNCIONAL</span></td><td><span>PILATES SOLO</span></td><td><span>FUNCIONAL</span></td><td><span>YOGA</span></td></tr>
+                <tr><th scope="row">07H</th><td><span class="schedule-table__empty">—</span></td><td><span>RITMOS</span></td><td><span class="schedule-table__empty">—</span></td><td><span>RITMOS</span></td><td><span class="schedule-table__empty">—</span></td></tr>
+                <tr><th scope="row">08H</th><td><span class="schedule-table__empty">—</span></td><td><span class="schedule-table__empty">—</span></td><td><span>YOGA</span></td><td><span class="schedule-table__empty">—</span></td><td><span class="schedule-table__empty">—</span></td></tr>
+                <tr><th scope="row">16H</th><td><span class="schedule-table__empty">—</span></td><td><span>AERÓBICA</span></td><td><span class="schedule-table__empty">—</span></td><td><span>AERÓBICA</span></td><td><span class="schedule-table__empty">—</span></td></tr>
+                <tr><th scope="row">18H</th><td><span>AERÓBICA</span></td><td><span>DANÇA DE SALÃO</span></td><td><span>AERÓBICA</span></td><td><span>DANÇA DE SALÃO</span></td><td><span class="schedule-table__empty">—</span></td></tr>
+                <tr><th scope="row">19H</th><td><span>RITMOS</span></td><td><span>FUNCIONAL</span></td><td><span>RITMOS</span></td><td><span>FUNCIONAL</span></td><td><span class="schedule-table__empty">—</span></td></tr>
+                <tr><th scope="row">20H</th><td><span>MUAY THAI</span></td><td><span>JIU KIDS</span></td><td><span>MUAY THAI</span></td><td><span>JIU KIDS</span></td><td><span>MUAY THAI</span></td></tr>
+                <tr><th scope="row">21H</th><td><span>JIU-JITSU</span></td><td><span>JIU-JITSU</span></td><td><span>JIU-JITSU</span></td><td><span>JIU-JITSU</span></td><td><span class="schedule-table__empty">—</span></td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="schedule__mobile" aria-label="Horários organizados por dia"></div>
+          <p class="schedule__note"><span aria-hidden="true">＋</span> Para participar das artes marciais, é necessário realizar a matrícula na modalidade.</p>
+          <a class="schedule__cta" href="https://wa.me/5583988683412?text=Ol%C3%A1%2C%20gostaria%20de%20confirmar%20os%20hor%C3%A1rios%20da%20Academia%20Silva." target="_blank" rel="noreferrer">Confirme horários pelo WhatsApp <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="plans section" id="planos" aria-labelledby="plans-title">
+        <div class="wrap">
+          <div class="section-number" data-reveal><span>04</span><span>ESCOLHA SEU PLANO</span><span class="section-number__line"></span><span>TREINE COM INTENÇÃO</span></div>
+          <div class="plans__heading" data-reveal><div><p class="eyebrow"><span class="eyebrow__dash"></span> Planos Academia Silva</p><h2 id="plans-title">SEU TREINO.<br /><em>SEU PRÓXIMO PASSO.</em></h2></div><p>Opções para você começar, manter o ritmo ou ampliar sua rotina.</p></div>
+          <div class="plans__grid">
+            <article class="plan-card plan-card--blue" data-reveal><span class="plan-card__index">01 / MENSAL</span><h3>MUSCULAÇÃO<br /><small>+ AULAS COLETIVAS</small></h3><div class="plan-card__price"><span>R$</span>90<small>,00<sup>/mês</sup></small></div><p>Pilates, yoga, funcional, aeróbica, dança de salão e ritmos.</p><a href="https://wa.me/5583988683412?text=Ol%C3%A1%2C%20quero%20saber%20sobre%20o%20plano%20mensal%20de%20muscula%C3%A7%C3%A3o%20e%20aulas%20coletivas." target="_blank" rel="noreferrer">Tenho interesse <span aria-hidden="true">↗</span></a></article>
+            <article class="plan-card" data-reveal style="--delay:80ms"><span class="plan-card__index">02 / MENSAL</span><h3>ARTES<br />MARCIAIS</h3><div class="plan-card__price"><span>R$</span>90<small>,00<sup>/mês</sup></small></div><p>Jiu-Jitsu, Jiu Kids, Capoeira ou Karatê.</p><a href="https://wa.me/5583988683412?text=Ol%C3%A1%2C%20quero%20saber%20sobre%20os%20planos%20de%20artes%20marciais." target="_blank" rel="noreferrer">Tenho interesse <span aria-hidden="true">↗</span></a></article>
+            <article class="plan-card" data-reveal style="--delay:160ms"><span class="plan-card__index">03 / MENSAL</span><h3>MUAY<br />THAI</h3><div class="plan-card__price"><span>R$</span>70<small>,00<sup>/mês</sup></small></div><p>Treinos de Muay Thai na programação semanal.</p><a href="https://wa.me/5583988683412?text=Ol%C3%A1%2C%20quero%20saber%20sobre%20o%20plano%20de%20Muay%20Thai." target="_blank" rel="noreferrer">Tenho interesse <span aria-hidden="true">↗</span></a></article>
+            <article class="plan-card plan-card--wide" data-reveal style="--delay:220ms"><span class="plan-card__index">04 / DIÁRIA</span><h3>UM DIA DE CADA VEZ.</h3><div class="plan-card__daily"><span><b>R$ 20</b> <small>SEG — SEX</small></span><i></i><span><b>R$ 25</b> <small>SÁB · DOM · FERIADOS</small></span></div><p>Musculação, aulas coletivas e artes marciais.</p><a href="https://wa.me/5583988683412?text=Ol%C3%A1%2C%20quero%20saber%20sobre%20o%20valor%20da%20di%C3%A1ria." target="_blank" rel="noreferrer">Consultar diária <span aria-hidden="true">↗</span></a></article>
+            <article class="plan-card" data-reveal style="--delay:280ms"><span class="plan-card__index">05 / SEMESTRAL</span><h3>SEIS MESES<br /><small>DE CONSTÂNCIA</small></h3><div class="plan-card__price"><span>R$</span>450<small>,00<sup>/plano</sup></small></div><p>Musculação e aulas coletivas.</p><a href="https://wa.me/5583988683412?text=Ol%C3%A1%2C%20quero%20saber%20sobre%20o%20plano%20semestral." target="_blank" rel="noreferrer">Tenho interesse <span aria-hidden="true">↗</span></a></article>
+            <article class="plan-card" data-reveal style="--delay:340ms"><span class="plan-card__index">06 / ANUAL</span><h3>UM ANO<br /><small>EM MOVIMENTO</small></h3><div class="plan-card__price"><span>R$</span>750<small>,00<sup>/plano</sup></small></div><p>Musculação, aulas coletivas e artes marciais.</p><a href="https://wa.me/5583988683412?text=Ol%C3%A1%2C%20quero%20saber%20sobre%20o%20plano%20anual." target="_blank" rel="noreferrer">Tenho interesse <span aria-hidden="true">↗</span></a></article>
+          </div>
+          <p class="plans__fineprint">Valores conforme material enviado. Pagamento por Pix, débito, crédito ou espécie. Consulte a equipe para confirmar condições e disponibilidade das modalidades.</p>
+        </div>
+      </section>
+
+      <section class="structure section section--night" id="estrutura" aria-labelledby="structure-title">
+        <div class="wrap">
+          <div class="section-number" data-reveal><span>05</span><span>MAPA DE TREINO</span><span class="section-number__line"></span><span>ESPAÇO · PRÁTICA · ROTINA</span></div>
+          <div class="structure__layout">
+            <div class="structure__copy" data-reveal><p class="eyebrow"><span class="eyebrow__dash"></span> Tudo se conecta</p><h2 id="structure-title">UM LUGAR.<br /><em>MUITAS ROTAS.</em></h2><p>Da musculação ao tatame, passando pelas aulas coletivas: organize sua rotina em torno do que faz você querer voltar.</p><a class="button button--blue" href="https://maps.google.com/?q=Rua+Adalgisa+Carneiro+Cavalcante+30+Cui%C3%A1+Jo%C3%A3o+Pessoa+PB" target="_blank" rel="noreferrer">Ver no mapa <span aria-hidden="true">↗</span></a></div>
+            <div class="structure-map" data-reveal>
+              <div class="structure-map__grid" aria-hidden="true"></div><div class="structure-map__core"><video muted autoplay playsinline loop preload="metadata" poster="logo-silva.jpeg" aria-label="Treino na Academia Silva"><source src="silva-treino.mp4" type="video/mp4" /></video><span>SILVA<br /><small>ACADEMIA</small></span></div>
+              <svg class="structure-map__lines" viewBox="0 0 600 470" preserveAspectRatio="none" aria-hidden="true"><path d="M300 235 120 98H35M300 235 478 95h85M300 235 120 376H35M300 235l178 141h85" pathLength="1"/></svg>
+              <div class="structure-label structure-label--one"><i>01</i><b>FORÇA</b><small>MUSCULAÇÃO</small></div><div class="structure-label structure-label--two"><i>02</i><b>COLETIVO</b><small>AULAS EM GRUPO</small></div><div class="structure-label structure-label--three"><i>03</i><b>TÉCNICA</b><small>ARTES MARCIAIS</small></div><div class="structure-label structure-label--four"><i>04</i><b>ROTINA</b><small>SEU PRÓXIMO TREINO</small></div>
+              <span class="structure-map__stamp">CUIÁ / JOÃO PESSOA / BR</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery section" id="galeria" aria-labelledby="gallery-title">
+        <div class="wrap">
+          <div class="section-number" data-reveal><span>06</span><span>ACADEMIA SILVA</span><span class="section-number__line"></span><span>GENTE · TREINO · MOVIMENTO</span></div>
+          <div class="gallery__heading" data-reveal><div><p class="eyebrow"><span class="eyebrow__dash"></span> Uma história em movimento</p><h2 id="gallery-title">O ESFORÇO<br /><em>APARECE.</em></h2></div><p>Um pouco da energia e das conquistas que fazem parte da Silva.</p></div>
+          <div class="gallery__grid">
+            <button class="gallery__video gallery-item" type="button" data-video-view data-reveal aria-label="Ver vídeo da Academia Silva"><video autoplay muted playsinline loop preload="metadata" poster="logo-silva.jpeg"><source src="silva-treino.mp4" type="video/mp4" /></video><span class="gallery__play" aria-hidden="true">▶</span><span class="gallery__caption"><b>EM MOVIMENTO</b><small>01 / TREINO SILVA</small></span></button>
+            <button class="gallery__photo gallery-item" type="button" data-lightbox="assets/premio-academia.jpeg" data-alt="Reconhecimento da Academia Silva no prêmio Melhores do Ano" data-reveal aria-label="Ampliar foto do reconhecimento da Academia Silva"><img src="premio-academia.jpeg" alt="" loading="lazy" /><span class="gallery__caption"><b>RECONHECIMENTO</b><small>02 / PRÊMIO</small></span></button>
+            <div class="gallery__note" data-reveal><span class="gallery__note-symbol">S</span><p>Treinar é o começo.<br /><em>Continuar é a conquista.</em></p><span class="gallery__note-coord">SILVA / EM MOVIMENTO</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-cta section" data-reveal aria-labelledby="final-title">
+        <div class="final-cta__orbit" aria-hidden="true"><svg viewBox="0 0 500 500"><circle cx="250" cy="250" r="231" pathLength="1"/><circle cx="250" cy="250" r="199" pathLength="1"/></svg><span></span></div>
+        <div class="final-cta__inner" data-reveal><p class="eyebrow"><span class="eyebrow__dash"></span> Sua próxima versão começa aqui</p><h2 id="final-title">PRONTO PARA<br /><em>COMEÇAR?</em></h2><a class="final-cta__button" href="https://wa.me/5583988683412?text=Ol%C3%A1%2C%20quero%20come%C3%A7ar%20na%20Academia%20Silva." target="_blank" rel="noreferrer"><span>COMEÇAR AGORA</span><b aria-hidden="true">↗</b></a></div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contato" data-reveal>
+      <div class="footer__blue-line" aria-hidden="true"><svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0 40h1440" pathLength="1"/></svg></div>
+      <div class="wrap footer__main">
+        <a class="footer__brand" href="#inicio"><img src="logo-silva.jpeg" alt="" /><span><b>SILVA</b><small>ACADEMIA · JOÃO PESSOA</small></span></a>
+        <nav class="footer__nav" aria-label="Links do rodapé"><a href="#inicio">Início</a><a href="#academia">Academia</a><a href="#treinos">Treinos</a><a href="#estrutura">Estrutura</a><a href="#contato">Contato</a></nav>
+        <div class="footer__contact"><a href="https://wa.me/5583988683412" target="_blank" rel="noreferrer"><span>WHATSAPP</span><b>(83) 98868-3412 <i>↗</i></b></a><a href="https://www.instagram.com/academia_silva/" target="_blank" rel="noreferrer"><span>INSTAGRAM</span><b>@academia_silva <i>↗</i></b></a><a href="https://maps.google.com/?q=Rua+Adalgisa+Carneiro+Cavalcante+30+Cui%C3%A1+Jo%C3%A3o+Pessoa+PB" target="_blank" rel="noreferrer"><span>LOCALIZAÇÃO</span><b>R. Adalgisa Carneiro Cavalcante, 30 · Cuiá <i>↗</i></b></a></div>
+      </div>
+      <div class="wrap footer__bottom"><span>© <span id="year"></span> Academia Silva · Todos os direitos reservados.</span><a href="#topo">VOLTAR AO TOPO ↑</a></div>
+    </footer>
+
+    <div class="cursor" id="cursor" aria-hidden="true"><span>GO</span></div>
+    <dialog class="lightbox" id="lightbox" aria-label="Imagem ou vídeo ampliado"><button class="lightbox__close" type="button" aria-label="Fechar imagem ou vídeo">×</button><img src="" alt="" /><video class="lightbox__video" controls playsinline hidden><source src="silva-treino.mp4" type="video/mp4" /></video><p></p></dialog>
+  </body>
+</html>

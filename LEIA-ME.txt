@@ -1,0 +1,6 @@
+ACADEMIA SILVA — SITE
+
+Abra o arquivo index.html em um navegador para ver o site.
+Mantenha a pasta assets ao lado do index.html; ela contém as imagens e o vídeo usados na página.
+
+O site foi montado para funcionar sem instalação. A tipografia Manrope pode carregar da internet; se estiver offline, o navegador usará fontes locais equivalentes.
